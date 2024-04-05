@@ -72,6 +72,7 @@ xor(diff,a,b);
 assign carry=(~a)&b;
 endmodule
 
+```
 
 **RTL Schematic**
 
@@ -81,15 +82,7 @@ endmodule
 ![3sub diaa](https://github.com/Infanciafelcy/HALF_ADDER_SUBTRACTOR/assets/155411010/d60d9ee2-6ae8-4b07-ada6-92c65749cf2b)
 
 
-Truth Table:
-Half Adder:![f3ebcb6f-4a5a-4b4f-8186-94219a0d4117](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/155411010/54945479-325c-4822-a53a-5b70f746f1f2)
 
-HALf Subractor:![6431d8f2-aafa-4d7c-87a8-e64a19e2522c](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/155411010/17f9bf82-b3f9-42fd-8ebf-ec11489d17d5)
-
-
-Waveform:
-HAlf Adder:![d28172aa-cec0-43f8-a4e2-39e117ed3e38](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/155411010/8659261c-27df-413f-a740-689fb680337b)
-Half Suractor: ![6317fa06-eb71-4449-b172-c5829e75db09](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/155411010/05bf2ed4-7b3f-4b0f-b7f4-d7bb38655bfe)
 
 
 
