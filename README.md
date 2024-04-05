@@ -74,8 +74,12 @@ endmodule
 
 
 **RTL Schematic**
-Half Adder:![51438f78-04e9-411e-b91f-b9c9350e798a](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/155411010/d8f48c2a-2e7e-434a-9af8-3cd94c591489)
-Half Subractor:![c99c6a4a-8087-4d5c-bcec-a5bb41e292b3](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/155411010/2b401c1d-fee8-44ab-b0ca-9caf1354ae13)
+
+![3dia add](https://github.com/Infanciafelcy/HALF_ADDER_SUBTRACTOR/assets/155411010/0d8c37fa-35c2-4ff6-9d25-70236209da46)
+
+
+![3sub diaa](https://github.com/Infanciafelcy/HALF_ADDER_SUBTRACTOR/assets/155411010/d60d9ee2-6ae8-4b07-ada6-92c65749cf2b)
+
 
 Truth Table:
 Half Adder:![f3ebcb6f-4a5a-4b4f-8186-94219a0d4117](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/155411010/54945479-325c-4822-a53a-5b70f746f1f2)
