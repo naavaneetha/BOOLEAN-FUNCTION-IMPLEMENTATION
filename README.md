@@ -34,6 +34,14 @@ Borrow = A’B
 Figure -02 HALF Subtractor
 
 **Truthtable**
+Half Adder
+![3truth](https://github.com/Infanciafelcy/HALF_ADDER_SUBTRACTOR/assets/155411010/4d8383d4-4ab2-434e-ac10-6826c8ff0983)
+
+Half Subractor:
+![3 sub truth](https://github.com/Infanciafelcy/HALF_ADDER_SUBTRACTOR/assets/155411010/07098b86-79d6-4632-915a-3c3c52127679)
+
+
+
 
 **Procedure**
 ```
@@ -81,12 +89,17 @@ endmodule
 
 ![3sub diaa](https://github.com/Infanciafelcy/HALF_ADDER_SUBTRACTOR/assets/155411010/d60d9ee2-6ae8-4b07-ada6-92c65749cf2b)
 
+**Wave Form**
+Half Adder:![3 logic](https://github.com/Infanciafelcy/HALF_ADDER_SUBTRACTOR/assets/155411010/4052bd18-12f9-4998-b567-ab31fbaec6ec)
 
+
+Half subractor:
+![3 sub trruth](https://github.com/Infanciafelcy/HALF_ADDER_SUBTRACTOR/assets/155411010/98eb646d-81a7-4b19-875a-7b47f2bfc376)
 
 
 
 
 
 **Output/TIMING Waveform**
-```
+
 **Result:**Thus the half subtractor and half adder circuits are designed and the truth tables is verified using quartus software.
