@@ -36,7 +36,7 @@ Figure -02 HALF Subtractor
 **Truthtable**
 
 **Procedure**
-
+```
 1.	Type the program in Quartus software.
 
 2.	Compile and run the program.
@@ -46,16 +46,45 @@ Figure -02 HALF Subtractor
 4.	Create nodes for inputs and outputs to generate the timing diagram.
 
 5.	For different input combinations generate the timing diagram.
-
+```
 
 **Program:**
-
+```
 /* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
-Developed by: RegisterNumber:*/
+Developed by: Infancia Felcy P
+ RegisterNumber: 212223040067
+*/
+Half Adder:
+module exp3(sum, carry,a,b); 
+input a,b; 
+output sum,carry; 
+xor sum1(sum,a,b); 
+and carry1(carry,a,b); 
+endmodule
 
-**RTL Schematic**
+Half Subractror:
+module exp3(diff,carry,a,b);
+input a,b;
+output diff,carry;
+xor(diff,a,b);
+assign carry=(~a)&b;
+endmodule
 
-**Output/TIMING Waveform**
+RTL schematic:
+Half Adder:
+![half adder](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/155411010/98e1ba28-1952-4263-9e53-947962f92b3e)
+HAlf Subractor:
+![half sub logic](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/155411010/f483e49b-601b-4989-b5a3-ebc09c56e50f)
+Truth Table:
+Half Adder:
+![truth table half adder](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/155411010/f5c4dd99-d5e1-40f9-a25d-4df403185536)
+Half Subractor:
+![truth table half sub](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/155411010/a05a96e4-ffc1-42dd-846a-5bb46c3444a5)
+Waveform:
+Half Adder:
+![3 logic wave form](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/155411010/2e2922e3-5b55-47c3-a10f-20c0b33d8fb2)
+Half Subractor
+![6317fa06-eb71-4449-b172-c5829e75db09](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/155411010/36ab959d-9322-4c8d-8265-d7d3c3b18170)
 
-**Result:**
+**Result:**Thus the half subtractor and half adder circuits are designed and the truth tables is verified using quartus software.
