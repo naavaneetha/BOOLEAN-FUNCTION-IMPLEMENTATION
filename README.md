@@ -34,9 +34,17 @@ Borrow = A’B
 Figure -02 HALF Subtractor
 
 **Truthtable**
+Half Adder
+![3truth](https://github.com/Infanciafelcy/HALF_ADDER_SUBTRACTOR/assets/155411010/4d8383d4-4ab2-434e-ac10-6826c8ff0983)
+
+Half Subractor:
+![3 sub truth](https://github.com/Infanciafelcy/HALF_ADDER_SUBTRACTOR/assets/155411010/07098b86-79d6-4632-915a-3c3c52127679)
+
+
+
 
 **Procedure**
-
+```
 1.	Type the program in Quartus software.
 
 2.	Compile and run the program.
@@ -46,16 +54,52 @@ Figure -02 HALF Subtractor
 4.	Create nodes for inputs and outputs to generate the timing diagram.
 
 5.	For different input combinations generate the timing diagram.
-
+```
 
 **Program:**
-
+```
 /* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
-Developed by: RegisterNumber:*/
+
+Developed by: Infancia Felcy P
+RegisterNumber: 212223040067*/
+
+HAlf Adder:
+module exp3(sum, carry,a,b); 
+input a,b; 
+output sum,carry; 
+xor sum1(sum,a,b); 
+and carry1(carry,a,b); 
+endmodule
+
+Half Subractor:
+module exp3(diff,carry,a,b);
+input a,b;
+output diff,carry;
+xor(diff,a,b);
+assign carry=(~a)&b;
+endmodule
+
+```
 
 **RTL Schematic**
 
+![3dia add](https://github.com/Infanciafelcy/HALF_ADDER_SUBTRACTOR/assets/155411010/0d8c37fa-35c2-4ff6-9d25-70236209da46)
+
+
+![3sub diaa](https://github.com/Infanciafelcy/HALF_ADDER_SUBTRACTOR/assets/155411010/d60d9ee2-6ae8-4b07-ada6-92c65749cf2b)
+
+**Wave Form**
+Half Adder:![3 logic](https://github.com/Infanciafelcy/HALF_ADDER_SUBTRACTOR/assets/155411010/4052bd18-12f9-4998-b567-ab31fbaec6ec)
+
+
+Half subractor:
+![3 sub trruth](https://github.com/Infanciafelcy/HALF_ADDER_SUBTRACTOR/assets/155411010/98eb646d-81a7-4b19-875a-7b47f2bfc376)
+
+
+
+
+
 **Output/TIMING Waveform**
 
-**Result:**
+**Result:**Thus the half subtractor and half adder circuits are designed and the truth tables is verified using quartus software.
